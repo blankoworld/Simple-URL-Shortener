@@ -1,0 +1,61 @@
+body {
+        font: .8em "Trebuchet MS", Verdana, Arial, Sans-Serif;
+        background: url('http://m.b4n.fr/gris_190.jpg');
+        color: #80679d;
+        text-align: center;
+        margin-top: 5em;
+}
+
+h1 {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+}
+
+h4 {
+        font-size: 1em;
+        font-weight: bold;
+}
+
+form {
+        width: 28em;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+}
+
+fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+}
+
+a {
+        color: #573ae5;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+a:visited {
+        color: #80427b;
+        text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+.error, .success {
+        font-size: 1.2em;
+        font-weight: bold;
+}
+
+.error {
+        color: #de82c5;
+}
+
+.success {
+        color: #9978e5;
+}
