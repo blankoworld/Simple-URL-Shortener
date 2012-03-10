@@ -31,7 +31,7 @@ $SOURCE = "http://www.0xf.fr/shorturl.tar.bz2";
 $BLK_SOURCE = "https://github.com/blankoworld/Simple-URL-Shortener";
 
 $FILE   = basename($_SERVER['PHP_SELF']);
-$DBFILE = basename($FILE, ".php") . ".db";
+$DBFILE = "index.db"; /* basename($FILE, ".php") . ".db";*/
 
 /* Database object */
 if (!file_exists($DBFILE))
